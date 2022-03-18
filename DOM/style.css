@@ -1,0 +1,18 @@
+*{
+	font-family:Arial, Helvetica, sans-serif;
+}
+body{
+	background:black;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	width:50%;
+}
+
+img{
+	width:50%;
+}
+.azul{
+	color:blue;
+}

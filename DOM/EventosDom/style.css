@@ -1,0 +1,17 @@
+*{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+	background:black;
+	color:white;
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	width: 50%;
+}
+
+button{
+	width:20%;
+	padding:2px;
+}

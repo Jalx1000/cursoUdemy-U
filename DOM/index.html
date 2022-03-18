@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Ejemplo DOM</title>
+</head>
+<body>
+	<h1 id="cabecero">Ejemplo DOM</h1>
+	<p class="azul" id="parrafo">Saludos!</p>
+	<p class="azul" id="parrafo">Otro parrafo</p>
+	<p class="azul" id="parrafo">tercer parrafo</p>
+
+	<form id="formulario">
+		nombre:<input type="text" name="nombre" value="juan"><br/>
+		Apellido:<input type="text" name="apellido" value="Perez"><br/>
+	</form>
+
+	<button onclick="mostrarValores()">Mostrar</button>
+	<div id="valores"></div>
+
+	<button onclick="mostrar()">Motrar funcion con document.write</button>
+
+	<h1 id="titulo"><button onclick="mostrarTitulo()">cambiar titulo </button>me cambiare por una funcion de js getElementById</h1>
+
+	<button onclick="cambiarImagen()">Cambiar Imagen</button>
+	<img id="imagen" src="http://globalmentoring.com.mx/imagenes/javascript.png" alt="" srcset="">
+	<button onclick="cambiarStyloJs()">Cambiar background</button>
+	<img id="imagenCss" src="http://globalmentoring.com.mx/imagenes/css3.png" alt="" srcset="">
+	<script src="script.js"></script>
+</body>
+</html>
